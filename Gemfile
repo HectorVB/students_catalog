@@ -14,7 +14,11 @@ gem 'devise'
 gem 'rspec'
 gem 'selenium-webdriver'
 gem 'capybara'
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
 
 group :development, :test do
   gem 'byebug'
